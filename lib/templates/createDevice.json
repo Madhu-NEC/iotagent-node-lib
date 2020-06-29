@@ -40,6 +40,10 @@
             "description": "Expression language used to apply expressions for this device",
             "type": "string"
           },
+          "explicitAttrs": {
+            "description": "Flag about support selective ignore of measures so that IOTA doesn’t progress",
+            "type": "boolean"
+          },
           "lazy": {
             "description": "list of lazy attributes of the devices",
             "type": "array",
